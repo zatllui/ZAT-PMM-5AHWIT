@@ -8,3 +8,4 @@ daten <- raw |> mutate(iok = if_else(is.na(masse_mm), NA,
 ))
 
 tab <- table(daten$maschine, daten$iok)
+
